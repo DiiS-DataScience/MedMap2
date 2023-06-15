@@ -55,7 +55,7 @@ travelspeeds = {
 
 with st.form("MCLP_inputs"):
     address = st.text_input(
-        "Enter address in following format;  2 Hills Road, Cambridge, Cambridgeshire......Please make sure to enter the county!!!"
+        "Enter address in following format;  Vespasian House, Barrack Road, Dorchester, Dorset.......Please make sure to enter the county!!!"
     )
 
     radius_miles = st.number_input(

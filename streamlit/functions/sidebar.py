@@ -19,8 +19,12 @@ def sidebar(uploader: bool):
         st.info(
             """
         Developed by: NHS England
+        
+        Operated and Maintained by: DiiS(Dorset Intelligence & Insight Service)
 
-        GitHub repository: <https://github.com/nhs-pycom/nhs_time_of_travel>
+        Original GitHub repository: <https://github.com/nhs-pycom/nhs_time_of_travel>
+
+        Current Github repository: <https://github.com/DiiS-DataScience/MedMap2>
         """
         )
         if uploader == True:
