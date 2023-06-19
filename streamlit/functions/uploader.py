@@ -7,7 +7,7 @@ import openpyxl
 
 # hospital = '/Users/oliver.jones/Documents/GitHub/pycom_nhs_time_of_travel/streamlit/streamlit/data/Hospital.csv'
 # hospital = '/Users/oliver.jones/Documents/GitHub/pycom_nhs_time_of_travel/streamlit/streamlit/data/Hospital.csv'
-hospital = "../data/Hospital.csv"
+hospital = "Hospital.csv"#"../data/Hospital.csv"
 epraccur = "../data/epraccur_data.csv"
 
 
