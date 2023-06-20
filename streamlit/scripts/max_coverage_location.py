@@ -31,8 +31,8 @@ def main(address, radius_miles, speed):
 
     G = ox.graph_from_point(origin, dist=radius_metres, network_type="drive")
 
-    lsoa_pop = pd.read_csv("../data/lsoa_global_number_residents_2021.csv")
-    gdf = gpd.read_file("../data/LSOA_2021_EW_BGC.shp")
+    lsoa_pop = pd.read_csv("lsoa_global_number_residents_2021.csv")#../data/lsoa_global_number_residents_2021.csv")
+    gdf = gpd.read_file("LSOA_2021_EW_BGC.shp")#../data/LSOA_2021_EW_BGC.shp")
 
     gdf_filtered = filter_grid_lsoas_to_origin(gdf, radius_miles, origin)
     lsoa_codes = gdf_filtered["LSOA21CD"].tolist()
