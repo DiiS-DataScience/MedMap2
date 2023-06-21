@@ -36,7 +36,7 @@ def render_svg(svg):
 
 render_svg(svg)
 
-st.title("🚶‍♂️ Route Optimizer (aka The Travelling Salesman Problem)")
+st.title("🚶‍♂️ Route Optimizer")
 
 
 df2, fn = sidebar(True)
