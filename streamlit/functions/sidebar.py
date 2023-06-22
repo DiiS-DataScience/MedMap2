@@ -10,7 +10,7 @@ def sidebar(uploader: bool):
             )
             file = st.file_uploader(
                 "Upload your excel from the template, or use one of our datasets, hospital.csv or epraccur.csv (for gp practices)",
-                type=["xls", "xlsx","csv"],
+                type=["xls", "xlsx"],
             )
             print(f"file type = {file_type}")
             df, fn = up(file, file_type)
